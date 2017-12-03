@@ -8,15 +8,28 @@
 			<img src="../../assets/images/11.png" alt="" class="scanImg"/>
 			</div>
 		</myheader>
+		<banner swiperid="go">
+			<div slot="swiper-con" class="swiper-slide">
+				<img src="../../assets/swiper/3.jpg" alt="" />
+			</div>
+			<div slot="swiper-con" class="swiper-slide">
+				<img src="../../assets/swiper/4.jpg" alt="" />
+			</div>
+			<div slot="swiper-con" class="swiper-slide">
+				<img src="../../assets/swiper/5.jpg" alt="" />
+			</div>
+		</banner>
 	</div>
 </template> 
 
 <script>
 	import myheader from '../../components/header'
+	import Banner from '../../components/banner'
 	
 	export default{
 		components:{
-			myheader
+			myheader,
+			Banner
 		}
 	}
 </script>
