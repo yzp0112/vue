@@ -9,7 +9,7 @@
 			</div>
 		</myheader>
 	</div>
-</template>
+</template> 
 
 <script>
 	import myheader from '../../components/header'
