@@ -19,17 +19,20 @@
 				<img src="../../assets/swiper/5.jpg" alt="" />
 			</div>
 		</banner>
+		<cell title="热点" hot="true"></cell>
 	</div>
 </template> 
 
 <script>
 	import myheader from '../../components/header'
 	import Banner from '../../components/banner'
+	import Cell from '../../components/cell'
 	
 	export default{
 		components:{
 			myheader,
-			Banner
+			Banner,
+			Cell
 		}
 	}
 </script>
